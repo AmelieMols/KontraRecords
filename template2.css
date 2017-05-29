@@ -1,0 +1,208 @@
+body {
+    background-color: black;
+}
+
+.kop {
+    height: 150px;
+    background-color: black;
+}
+
+.koppen {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    background-color: #cccc00;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+a {
+    padding-left: 80px;
+    padding-right: 80px;
+    text-decoration: none;
+    color: black;
+    font-family: "Muli";
+    font-size: 1.4em;
+}
+
+a:hover {
+    color: #cc0066;
+}
+
+.midden {
+    background-color: #cc0066;
+    width: 90%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: "Muli";
+    font-size: 2.3em;
+    text-align: center;
+    color: #cccc00;
+    padding-top: 50px;
+}
+
+.uitleg {
+    font-family: "Muli";
+    font-size: 1.1em;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    padding-top: 0px;
+}
+
+.fran {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 40px;
+}
+
+.kaitlin {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    margin-left: 385px;
+    margin-top: 40px;
+}
+
+.elinne {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    margin-left: 655px;
+    margin-top: 40px;
+}
+
+.amelie {
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    position: absolute;
+    margin-left: 925px;
+    margin-top: 40px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #cccc00;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    font-family: "Muli";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.fran:hover .overlay {
+    opacity: 1;
+}
+
+.kaitlin:hover .overlay {
+    opacity: 1;
+}
+
+.elinne:hover .overlay {
+    opacity: 1;
+}
+
+.amelie:hover .overlay {
+    opacity: 1;
+}
+
+.voet {
+    height: 300px;
+}
+
+.voet h2 {
+    color: white;
+    font-family: "Muli", bold;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 50px;
+    color: #cccc00;
+}
+
+.foto {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    margin-top: 40px;
+}
+
+.foto a {
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+    font-family: "Muli";
+}
+
+.foto a:hover {
+    color: #cc0066;
+}
+
+.adres {
+    font-family: "Muli";
+    font-size: 0.9em;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .koppen {
+        width: 100%;
+        height: 60px;
+    }
+    .koppen a {
+        padding-left: 0;
+        padding-right: 15px;
+        padding-top: 10px;
+    }
+    .midden {
+        height: 800px;
+    }
+    .fran {
+        margin-left: 30px;
+    }
+    .kaitlin {
+        margin-left: 355px;
+    }
+    .elinne {
+      margin-left: 30px;
+      margin-top: 350px;
+    }
+
+    .amelie{
+      margin-left: 355px;
+      margin-top: 350px;
+    }
+    .foto{
+      width: 400px;
+    }
+
+    .foto a{
+      margin-left: 100px;
+    }
+}

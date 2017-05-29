@@ -1,0 +1,180 @@
+body{
+  background-color: black;
+}
+.kop{
+  height: 750px;
+  background-color: black;
+}
+.foto1{
+  position: absolute;
+  margin-left: 20px ;
+  margin-right: auto;
+}
+.koppen{
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  background-color: #cccc00;
+  margin-top: 680px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.koppen a{
+  padding-left: 80px;
+  padding-right: 80px;
+  text-decoration: none;
+  color: black;
+  font-family: "Muli";
+  font-size: 1.4em;
+}
+
+a:hover{
+  color: #cc0066;
+}
+
+.midden{
+  background-color: #cc0066 ;
+  width: 90%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news{
+  position: absolute;
+  width: 300px;
+  height: 460px;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color:black;
+  border: 2px solid #cccc00;
+}
+
+.innews{
+  position: absolute;
+  width: 275px;
+  height: 435px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color:black;
+  border: 2px solid #cc0066 ;
+
+}
+
+h2{
+  color: white;
+  font-family: "Muli",bold;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 10px;
+  color: #cccc00;
+}
+
+.label{
+  position: absolute;
+  width: 260px;
+  height: 420px;
+  margin-left: 20px;
+  margin-top: 110px;
+}
+
+h3{
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+.label, p{
+  color: white;
+  text-align: center;
+}
+
+.kontra{
+  position: absolute;
+  width: 650px;
+  height: 460px;
+  margin-left: 500px;
+  margin-top: 100px;
+}
+
+.kontra h2{
+  color: #cccc00;
+}
+
+.kontra p{
+  font-family: "Muli";
+  padding-top: 60px;
+  font-size: 1.1em;
+}
+
+.voet{
+  height: 200px;
+  width: 100%;
+}
+
+.voet h2{
+  margin-top: 50px;
+}
+
+.foto{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  margin-top: 40px;
+}
+
+.foto a {
+  color: white;
+  font-size: 0.9em;
+  text-align: center;
+  font-family: "Muli";
+  text-decoration: none;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.foto a:hover{
+  color: #cc0066;
+}
+
+.adres{
+  font-family: "Muli";
+  font-size: 0.9em;
+  margin-top: 40px;
+}
+
+@media (max-width: 1000px){
+  img{
+    width: 800px;
+  }
+  .koppen{
+    width:100%;
+    height: 60px;
+  }
+  .koppen a{
+    padding-left: 0;
+    padding-right: 15px;
+    padding-top: 10px;
+  }
+  .midden{
+    height: 1000px;
+  }
+
+  .news{
+    margin-left: 60px;
+  }
+  .kontra{
+    margin-left: 110px;
+    margin-top: 500px;
+    width: 200px;
+  }
+  .foto{
+    width: 400px;
+  }
+
+  .foto a{
+    margin-left: 100px;
+  }
+}
