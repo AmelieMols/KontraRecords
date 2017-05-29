@@ -171,13 +171,15 @@ p{
 .foto{
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width: 520px;
   margin-top: 40px;
 }
 
 .foto a {
   color: white;
   font-size: 0.9em;
+  padding-left: 40px;
+  padding-right: 40px; 
   text-align: center;
   font-family: "Muli";
 }
